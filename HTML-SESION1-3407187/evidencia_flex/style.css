@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 600px;
+    width: 80%;
+    background-color: rgb(237, 223, 255);
+    border: 2px solid rgb(185, 185, 185);
+}
+
+.horas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-right: 2px solid rgb(185, 185, 185);
+    width: 20%;
+}
+
+.hora{
+    display: block;
+    border-top: 1px dotted rgb(185, 185, 185);
+    height: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+.hora:first-child{
+    border-top: none;
+}
+
+.dias{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.dia{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(185, 185, 185);
+    flex-grow: 1;
+}
+
+.encabezado-dia{
+    display: block;
+    border-bottom: 1px dashed rgb(185, 185, 185);
+    height: 86px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
